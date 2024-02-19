@@ -65,9 +65,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v1
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_0AFBE42D27C14C8E8821B73788BBE477 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_9F305D25FE6A4101805287EB90149E8B }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_81EADAD7A2B0417A99FF16790DC79422 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_5F640F2D9BA240FB83E75C4BEA8BCBD0 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_5B7E50DE30A04A6380F61180AAD5C328 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_15D34F8BCC574C5FBF067F2ED020C407 }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
@@ -75,3 +75,4 @@ jobs:
         with:
           app-name: 'techin510-lab6'
           slot-name: 'Production'
+          
