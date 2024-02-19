@@ -73,4 +73,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'techin510-lab6'   
+          app-name: 'techin510-lab6'
+          slot-name: 'Production'
