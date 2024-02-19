@@ -74,5 +74,6 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'techin510-lab6'
-          slot-name: 'Production'
+          package: ./dist/techin510-lab6
+          
           
